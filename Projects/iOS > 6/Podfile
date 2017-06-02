@@ -1,6 +1,6 @@
 platform :ios, :deployment_target => '7.0'
 pod 'AFNetworking', 		'~> 2.2'
 
-target :PSUpdateAppTests, :exclusive => true do
+target :PSUpdateAppTests do
    pod 'Kiwi',					'2.2.3'
 end
